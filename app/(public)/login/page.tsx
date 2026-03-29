@@ -11,8 +11,9 @@ export default function LoginPage() {
 
   const handleLogin = (e: React.FormEvent) => {
     e.preventDefault();
-    // En un sistema real, aquí iría la validación con el backend
-    // y recibiríamos el JWT/Session con el rol
+    
+    
+
     if (role === 'admin') {
       router.push('/admin');
     } else {
